@@ -9,10 +9,7 @@ def main():
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
     clock = pygame.time.Clock()
     dt = 0.0
-<<<<<<< HEAD
-=======
     player = Player(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
->>>>>>> 1a5091e (CH3 - L3)
     while True:
         log_state()
         for event in pygame.event.get():
