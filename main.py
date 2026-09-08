@@ -33,6 +33,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-for player in drawable:
-    player.draw(screen)
